@@ -2,10 +2,9 @@
 counter = 0
 def loop_iterator(number_of_times)
 
-  loop do
+  while counter < number_of_times
     counter += 1
     phrase = "Welcome to Flatiron School's Web Development Course!"
-  break if counter < number_of_times
 end
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer
@@ -13,7 +12,7 @@ end
   # How can we make sure the loop breaks once it has puts out the phrase the
   #   correct number of times?
   # Maybe we should keep count of the number of times we've puts out the
-  #  phrase and break when the counter hits the appropriate number..  
+  #  phrase and break when the counter hits the appropriate number..
 end
 
 def times_iterator(number_of_times)
